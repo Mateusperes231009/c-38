@@ -22,11 +22,11 @@ function setup() {
   game = new Game();
   game.getState();
   game.start();
-  bgImg = backgroundImage;
+
 }
 
 function draw() {
-  background(bgImg);
+  background(backgroundImage);
 
   if (playerCount === 2){
     game.update(1);

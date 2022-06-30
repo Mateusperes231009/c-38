@@ -78,7 +78,8 @@ canvas {
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   outline: none;
-}.resetText{
+}
+.resetText{
   font-size: 25px;
   color: white;
   font-family: vollkorn;
